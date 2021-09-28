@@ -1,0 +1,55 @@
+body{
+    margin:0;
+    padding:0;
+    background-image:url(images/rui-silvestre-LIiGqQCsu3I-unsplash.jpg);
+    background-size:cover;
+}
+*{
+    margin:0;
+    padding:0;
+}
+div{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    border:0.5px solid white;
+    height:auto;
+    padding:30px;
+    border-radius:8px;
+    width:200px;
+    
+}
+label{
+    font-size:13px;
+    font-family:verdana; 
+    color:white;
+}
+input{
+    background-color:rgb(255, 251, 251);
+    margin-top:5px;
+    border:none;
+    height:15px;
+    border-radius:3px;
+    padding:4px;
+}
+button{
+    background-color:rgb(182, 161, 161);
+    border:1px solid white ;
+    height:25px;
+    margin-top:20px;
+    padding:5px;
+    border-radius:5px;
+    color:white;
+    box-shadow:2px 2px 5px;
+}
+button:hover{
+    transform:translate(1px,1px);
+    cursor:pointer;
+}
+.text{
+    color:white;
+    padding-top:30px;
+    font-family:verdana;
+    font-size:13px;
+}
