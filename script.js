@@ -6,10 +6,29 @@ Age = document.getElementById("ag").value ;
 Department = document.getElementById("dp").value ;
 UniverSity = document.getElementById("un").value ;
 
-function Details() {
-    document.getElementById("fdetails").innerHTML= 
-    "my name is" + firstName + lastName + "i am" + Age + "from the department of" + Department + UniverSity ;
-}
+var button = document.getElementById("mybtn"); 
+button.addEventListener("click",() => {
+alert("my name is" + " " + firstName + " " + lastName + " " + "i am " + Age + "years old, from the department of" + " " +
+Department + " " + UniverSity)
+})
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
