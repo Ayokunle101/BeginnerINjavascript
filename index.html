@@ -3,27 +3,52 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial scale=1.0">
         <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;500;700&display=swap" rel="stylesheet">
         <title>javascript course</title>
     </head>
     <body>
-      <div>
-   
-       <label>Firstname</label><br/>
-       <input id="fn" type="text" value="Azeez" /><br/>
-       <label>Lastname</label><br/>
-       <input id="ln" type="text" value="Alabi"/><br/>
-       <label>Age</label><br/>
-       <input id="ag" type="number" vlaue="21"/><br/>
-       <label>Department</label><br/>
-       <input id="dp" type="text" value="computer science"/><br/>
-       <label>University</label><br/>
-       <input id="un" type="text" value="lagos state university"/> <br/>
-       <button id="mybtn">Show my details</button>
-       <ol>
-        <li  class="text" id="fdetails"></li>
-      </ol>
-      </div> 
-         <script src="script.js"></script>
+      <!---nav bar------------------------->
+     <nav class="navbar">
+       <div class="navbar_container">
+         <a href="/" id="navbar_logo">NEXT</a>
+           <div class="navbar_toggle" id="mobile-menu">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+         <ul class="navbar_menu">
+           <li class="navbar_item">
+             <a href="/" class="navbar_links">Home</a>
+           </li>
+           <li class="navbar_item">
+             <a href="/tech.html" class="navbar_links">Tech</a>
+           </li>
+           <li class="navbar_item">
+             <a href="/" class="navbar_links">products</a>
+           </li>
+           <li class="navbar_btn"><a href="/"
+          class="button">Sign up</a></li>
+         </ul>
+       
+        </div>
+     </nav> 
+     <!----hero section-->
+     <div class="main">
+       <div class="main_container">
+         <div class="main_content">
+           <h1>NEXT GENERATION</h1>
+           <h2>TECHNOLOGY</h2>
+           <P>see what makes us different.</P>
+           <button class="main_btn"><a href="/">Get Started</a></button>
+         </div>
+        <div class="img_main_container">
+          <img src="" alt="pic" id="main_img"/>
+        </div>
+       </div>
+     </div>
+     <script src="script.js"></script>
     </body>
 </html>
 

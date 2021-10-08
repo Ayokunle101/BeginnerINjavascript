@@ -1,24 +1,10 @@
-var firstName,lastName,Age,Department,UniverSity;
+const menu = document.querySelector('#mobile-menu');
+const menuLinks = document.querySelector('.navbar_menu')
 
-firstName = document.getElementById("fn").value ;
-lastName = document.getElementById("ln").value ;
-Age = document.getElementById("ag").value ;
-Department = document.getElementById("dp").value ;
-UniverSity = document.getElementById("un").value ;
-
-var button = document.getElementById("mybtn"); 
-button.addEventListener("click",() => {
-alert("my name is" + " " + firstName + " " + lastName + " " + "i am " + Age + "years old, from the department of" + " " +
-Department + " " + UniverSity)
-})
-
-
-
-
-
-
-
-
+ menu.addEventListener("click",function (){
+     menu.classList.toggle('is-active');
+     menuLinks.classList.toggle('active');
+ });
 
 
 
